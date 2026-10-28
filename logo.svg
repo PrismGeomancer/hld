@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="HALDEN orb">
+  <defs>
+    <radialGradient id="o" cx="38%" cy="32%" r="80%">
+      <stop offset="0" stop-color="#7d8dff"/>
+      <stop offset=".45" stop-color="#2b46ff"/>
+      <stop offset="1" stop-color="#16228f"/>
+    </radialGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#090c0e"/>
+  <!-- falling coin droplets being drawn in -->
+  <g fill="#f3f5f6">
+    <ellipse cx="30" cy="20" rx="7" ry="3.2"/>
+    <ellipse cx="98" cy="30" rx="5.5" ry="2.6" opacity=".85"/>
+    <ellipse cx="64" cy="10" rx="4.5" ry="2.2" opacity=".7"/>
+  </g>
+  <!-- liquid orb with a pulled neck toward the coins -->
+  <path d="M64 30c9 0 12 8 16 12 7 3 22 8 22 28 0 22-18 34-38 34S26 92 26 70c0-17 12-24 20-28 5-4 9-12 18-12z" fill="url(#o)"/>
+  <!-- clinical cross cut-out -->
+  <path d="M58 56h12v10h10v12H70v10H58V78H48V66h10z" fill="#f3f5f6"/>
+  <!-- monitor trace -->
+  <path d="M12 112h26l5-8 7 14 6-20 6 14h56" fill="none" stroke="#3fd99a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".0"/>
+  <ellipse cx="50" cy="52" rx="7" ry="4" fill="#fff" opacity=".35" transform="rotate(-30 50 52)"/>
+</svg>
